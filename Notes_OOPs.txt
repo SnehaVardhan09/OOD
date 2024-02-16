@@ -1,0 +1,44 @@
+1 Object-oriented Design
+
+- design is often considered as step done before programming
+- This is'nt true; in reality, analysis, programmming and design tend to overlap, combine and interweave.
+ 
+1.1 Intro OO
+- Object: tangible thing that we can sense, feel and manipulate.
+- Software obj are models of something that can do certain things and have certain things done to them
+- Object is collection of data and associated behaviors
+- Oriented is directed towards
+
+Object oriented analysis (OOA) - WHAT
+- process of looking at problem and identifying the objects and interaction between those objects.
+
+I need a website,into a set of requirements. For example:
+Website visitors need to be able to (" " represents actions, ' ' represents objects):
+• "review" our 'history'
+• "apply" for 'jobs'
+• "browse, compare, and order" 'products'
+
+Object-oriented design (OOD) - HOW
+- Convert requirments into an implementation specification
+- name of objects, define the behaviour, and formally specify which obj can activate specific behaviour on the other objects.
+
+Object oriented programming (OOP) 
+- design in to a working program
+- No matter how hard we try to separate these stages, we'll always find things that need further analysis while we're designing. 
+   When we're programming, we find features that need clarification in the design.
+- Iterative development 
+
+1.2 Objects and classes
+
+- we can assume that apples go in barrels and oranges go in baskets.
+  Now, we have four kinds of objects: apples, oranges, baskets, and barrels.
+  In object-oriented modeling, the term used for 'kind of object' is class. So, in technical terms, we now have four classes of objects.
+
+- What's the difference between an object and a class? Classes describe objects.
+- The relationship between the four classes of objects in our inventory system can be described using a Unified Modeling Language
+                    Orange ----- Baskets
+                    Apple  ----- Barrel
+
+1.3 Speci attributes and behaviors:
+
+Specific object can gave different data values for the given characterstics (attributes)
